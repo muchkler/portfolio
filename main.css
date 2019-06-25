@@ -1,0 +1,522 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.behanceLinks{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+.navbar{
+    color: white; 
+    margin: 0 auto;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.behanceLinks{
+    text-decoration: none;
+}
+
+.navbar li{
+    display: inline-block; 
+    font-size: 13px;
+    color: black;
+    padding: 10px;
+}
+
+.navbar ul{
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 00px;
+    padding-top: 10px;
+}
+
+.logo{
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    font-weight: 800;
+}
+
+
+.landingContent{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.iPhoneX{
+    height: 200px;
+}
+
+.boldH{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 10px;
+}
+
+.bodyO{
+    opacity: 0.7;
+}
+
+.buttonB{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    font-weight: 600;   
+}
+
+.getStartedC{
+    color: black;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.processContent{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ProcessHeader{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 10px;
+}
+
+.ProcessBody{
+    opacity: 0.7;
+}
+
+.rightSideP{
+    display: none;
+}
+
+
+.unoProcess{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.reDesc1{
+    opacity: 0.7;
+}
+
+.reDesc{
+    opacity: 0.7;
+}
+
+.workContent{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.imganimate{
+    height: 200px;
+}
+
+.rightsideC{
+    display: none;
+}
+
+.workImgs{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.introduction{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+.contactMe{
+    background-color: black;
+    color: white;
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.contactHeader{
+    max-width: 300px;
+    margin: 0 auto;
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+.helpHeader{
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.contactBody{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.email{
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.copyrights{
+    padding-top: 120px;
+}
+
+.photoshop{
+    color: #3AB9FB !important;
+    font-weight: 800;
+}
+
+.studio{
+    font-weight: 800;
+    color: #FF3465;
+}
+
+.xd{
+    font-weight: 800;
+    color: #2E0020;
+}
+
+.Moemin{
+    line-height: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.MoeminLoc{
+    margin-top: 0px;
+    opacity: 0.7;   
+}
+
+.WorkHeader{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+}
+
+@media (min-width: 768px) {
+
+
+    .logo{
+        float: left;
+        color: black;
+        font-weight: 800;
+    }
+
+    .navbar{
+        color: white; 
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-top: 20px;
+    }
+
+    
+    .navbar ul{
+        margin: 0;
+        text-align: center;
+    }
+
+    .navbar li{
+        display: inline-block; 
+        font-size: 13px;
+        color: black;
+        text-align: center;
+    }
+
+    .pad{
+        padding-left: 50px;
+    }
+    
+    .navbar-shadow{
+        box-shadow: 0px 0px 10px #CFCFCF;
+        height: 60px;
+    }
+    
+
+    .landingContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 120px;
+    }
+
+    .iPhone{
+        text-align: end;
+    }
+
+    .processContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 250px;
+    }
+
+    .rightSideP{
+        text-align: end;
+        padding-top: 90px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .rightButton{
+        padding-left: 60px;
+    }
+
+    .unoProcess{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .getStartedC{
+        color: black;
+    }
+
+    .leftsideU{
+        max-width: 600px;
+    }
+
+    .rightsideU{
+        max-width: 600px;
+        margin-left: 200px;
+    }
+
+    .workContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 250px;
+    }
+
+    .rightsideC{
+        margin-left: 250px;
+    }
+
+    .workImgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-gap: 100px;
+    }
+
+    .introduction{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 250px;
+    }
+
+    .introGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 200px;
+    }
+
+    .boldH{
+        font-weight: 900;
+        font-size: 90px;
+        max-width: 200px;
+        line-height: 100px;
+        margin-bottom: 20px
+    }
+
+    .WorkHeader{
+        font-weight: 900;
+        font-size: 70px;
+    }
+
+    .ProcessHeader{
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 10px;
+    }
+
+    .behanceTag{
+        font-size: 15px;
+        padding-top: 80px;
+        padding-left: 150px;
+    }
+
+    .appHeader1{
+        max-width: 300px;
+        font-weight: 800;
+    }
+
+    .appHeader{
+        font-weight: 800;
+        max-width: 200px;
+    }
+
+    .Moemin{
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 0px;
+        margin-bottom: 35px;
+    }
+
+    .view{
+        background-color: #0457FE;
+        color: white;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .bodyO{
+        opacity: 0.5;
+        max-width: 400px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    .MoeminLoc{
+        opacity: 0.5;
+        margin: 0;
+    }
+
+    .me{
+        line-height: 50px;
+    }
+
+    .ProcessBody{
+        opacity: 0.5;
+        max-width: 500px;
+        font-size: 20px;
+        line-height: 40px;
+        padding-bottom: 50px;
+    }
+
+    .reDesc{
+        opacity: 0.5;
+        max-width: 400px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    .reDesc1{
+        opacity: 0.5;
+        max-width: 400px;
+        line-height: 40px;
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+
+    .buttonB{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: 700;
+    }
+
+    .getStarted{
+        text-decoration: underline;
+        font-weight: 700;
+        color: black;
+    }
+
+    a:visited{
+        color: black;
+    }
+
+    .imganimate{
+        transition: all 0.5s ease-in-out;
+    }
+
+    .imganimate:hover{
+        transform: translate(0, -20px);
+    }
+
+    .photoshop{
+        color: #3AB9FB !important;
+        font-weight: 800;
+    }
+    
+    .studio{
+        font-weight: 800;
+        color: #FF3465;
+    }
+
+    .xd{
+        font-weight: 800;
+        color: #2E0020;
+    }
+
+    .contactMe{
+        background-color: black;
+        color: white;
+        height: 400px;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .contactHeader{
+        opacity: 0.5;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .helpHeader{
+        font-weight: 800;
+        font-size: 60px;
+        margin: 0;
+    }
+
+    .contactBody{
+        max-width: 500px;
+        margin: 0 auto;
+        line-height: 30px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .email{
+        background-color: white;
+        color: black;
+        border: none;
+        padding: 20px;
+        padding-left: 150px;
+        padding-right: 150px;
+        font-weight: 700;
+    }
+
+    .copyrights{
+        padding-top: 70px;
+    }
+}
